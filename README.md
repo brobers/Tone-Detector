@@ -22,3 +22,5 @@ The solution: What comes now is a program called Tone-Detector. This is meant to
 -Repreat the tones and the recorded audio pattern a second time and then return to listening for the first tone.
 
 The program uses a JSON file for configuration data allowing the script to be adapted to other fire departments or to adjust for tolerance in tone and timing. Additionally being based on a Raspberry Pi the solution utilizes output pins to activate keydown on the primary department radio before playing back the audio.
+
+v1.3 is the most current working version. It stores the audio files in the directory audio_files and log files in the directory log_files as a subdirectory of where the application is ran from.
