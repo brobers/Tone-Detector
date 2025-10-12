@@ -1,0 +1,22 @@
+{
+  "gpio_output_pin": 17,
+  "sample_rate": 8000,
+  "chunk_size": 1024,
+  "name": "CTVFD",
+  "tones": {
+    "tone1": 422,
+    "tone2": 1477
+  },
+  "tone_tolerance": 2,
+  "tone_required_time": 1.0,
+  "timeout_between_tones": 5.0,
+  "audio_device_index": 1,
+  "record_delay": 2,
+  "record_seconds": 30,
+  "playback_tones": [
+    { "freq": 612, "duration": 1 },
+    { "freq": 585, "duration": 3 }
+  ],
+  "playback_delay": 1
+}
+
